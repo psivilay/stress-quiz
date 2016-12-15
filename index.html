@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Stress Quiz</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>De-stress with a Stressful Quiz about Stress! Yay!</h1>
+      </div>
+      <form id="stress-questions">
+        <div class="form-group">
+          <h2>Any warnings signs related to your stress? Please check all that apply:</h2><br>
+          <input type="checkbox" name="warning-signs" value="Loss of sleep"> Loss of sleep.<br>
+          <input type="checkbox" name="warning-signs" value="Feeling overwhelmed"> Feeling overwhelmed.<br>
+          <input type="checkbox" name="warning-signs" value="Irrational or impulsive behavior"> Irrational or impulsive behavior.<br>
+          <input type="checkbox" name="warning-signs" value="Excessive worry or depression"> Excessive worry or depression.<br>
+          <input type="checkbox" name="warning-signs" value="Irritability"> Irritability.<br>
+        </div>
+
+        <div class="form-group">
+          <h2>Any health symptoms related to your stress? Please check all that apply:</h2><br>
+          <input type="checkbox" name="health-symptoms" value="High blood-pressure"> High blood-pressure.<br>
+          <input type="checkbox" name="health-symptoms" value="Anxiety"> Anxiety.<br>
+          <input type="checkbox" name="health-symptoms" value="Panic attacks"> Panic attacks.<br>
+          <input type="checkbox" name="health-symptoms" value="Muscle tightness"> Muscle tightness.<br>
+          <input type="checkbox" name="health-symptoms" value="Neck or vein boils"> Neck or vein boils.<br>
+        </div>
+
+        <div class="form-group">
+          <h2>Any ways you've used to cope with your stress? Please check all that apply:</h2><br>
+          <input type="checkbox" name="coping-methods" value="Pet a pet"> Pet a pet.<br>
+          <input type="checkbox" name="coping-methods" value="Religion"> Religion.<br>
+          <input type="checkbox" name="coping-methods" value="Exercise"> Light exercise.<br>
+          <input type="checkbox" name="coping-methods" value="See a counselor"> See a counselor.<br>
+          <input type="checkbox" name="coping-methods" value="Meditate and journal"> Meditate and journal.<br>
+        </div>
+
+        <button class="btn" type="submit">Submit quiz results</button>
+
+      </form>
+
+      <br>
+
+      <span id="warning-results">
+        <p><b>Here are your warning signs:</b></p>
+      </span>
+
+      <br>
+
+      <span id="symptom-results">
+        <p><b>Here are your health symptoms:</b></p>
+      </span>
+
+      <br>
+
+      <span id="coping-results">
+        <p><b>Here are your coping methods:</b></p>
+      </span>
+
+      <br>
+
+    </div>
+  </body>
+</html>
